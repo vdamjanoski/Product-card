@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Card</title>
+    <style>
+        body{
+            margin-top: 50px;
+        }
+      .main {
+        background-color: blanchedalmond;
+        border-radius: 30px;
+        border: solid 1px black;
+        position: relative;
+        left: 40%;
+        width: 400px;
+        height: 570px;
+        padding: 30px;
+      }
+      .head-images {
+        position: relative;
+      }
+      #img2 {
+        position: absolute;
+        left: 340px;
+        top: -12px;
+      }
+      #img1 {
+        width: 400px;
+        height: 250px;
+        border-radius: 20px;
+      }
+      h1 {
+        text-align: center;
+        position: relative;
+        top: -10px;
+        font-size: large;
+      }
+      .ingredients {
+        position: relative;
+        top: -10px;
+        display: flex;
+        justify-content: center;
+      }
+      .ingredients img {
+        width: 30px;
+        height: 25px;
+      }
+      .ingredients p {
+        width: 140px;
+        border-radius: 30px;
+      }
+      .paragraph {
+        font-size: larger;
+      }
+      .price-cart p{
+        font-size: 50px;
+      }
+      .price-cart button{
+        font-size: 30px;
+        position: relative;
+        top: -110px;
+        left: 150px;
+        width: 250px;
+        border-radius: 20px;
+        color: white;
+        background-color: rgb(78, 36, 36);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="head-images">
+        <img
+          src="images/IcedPumpkinSpiceLatte-1200-x-1200-500x500.png"
+          alt=""
+          id="img1"
+        />
+        <img src="images/save.png" alt="" id="img2" />
+        <h1>Pumpkin Spice Latte</h1>
+      </div>
+      <div class="ingredients">
+        <p style="background-color: burlywood">
+          <img
+            src="images/11-coffee-espresso-cafe-mug-256.png"
+            alt="espresso"
+          />
+          Espresso
+        </p>
+        <p style="background-color: white">
+          <img src="images/Milk.png" alt="milk" /> Milk
+        </p>
+        <p style="background-color: orange">
+          <img src="images/pumpkin.png" alt="pumpkin-spice" /> Pumpkin Spice
+        </p>
+      </div>
+      <div class="paragraph">
+        <p>
+          Our signature espresso combined with whole milk, whipped cream, and
+          the beloved flavor of pumpkin spice with our in-house syrup.
+        </p>
+      </div>
+      <div class="price-cart">
+        <p><b>$10</b></p>
+        <button>Add to cart <img src="images/bag-64.png" alt="" /></button>
+      </div>
+    </div>
+  </body>
+</html>
