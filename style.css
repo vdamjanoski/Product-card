@@ -1,0 +1,72 @@
+body{
+    background-color: antiquewhite;
+      margin-top: 50px;
+  }
+.main {
+  background-color: blanchedalmond;
+  border-radius: 30px;
+  border: solid 1px black;
+  position: relative;
+  left: 40%;
+  width: 400px;
+  height: 570px;
+  padding: 30px;
+}
+.head-images {
+  position: relative;
+}
+#img2 {
+  position: absolute;
+  left: 340px;
+  top: -12px;
+}
+#img1 {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  top: -10px;
+  font-size: large;
+}
+.ingredients {
+  position: relative;
+  top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ingredients img {
+  width: 30px;
+  height: 25px;
+}
+.ingredients p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 140px;
+  border-radius: 30px;
+}
+.paragraph {
+  font-size: larger;
+}
+.price-cart p{
+  font-size: 50px;
+}
+.price-cart button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 20px;
+  position: relative;
+  top: -110px;
+  left: 150px;
+  width: 250px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(78, 36, 36);
+}
